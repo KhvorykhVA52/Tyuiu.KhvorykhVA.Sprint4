@@ -18,6 +18,7 @@ namespace Tyuiu.KhvorykhVA.Sprint4.Task3.V13.Test
 
             DataService ds = new DataService();
 
+
             int result = ds.Calculate(array);
             Assert.AreEqual(21, result);
         }
