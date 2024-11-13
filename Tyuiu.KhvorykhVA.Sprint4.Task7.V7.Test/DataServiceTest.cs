@@ -11,7 +11,7 @@ namespace Tyuiu.KhvorykhVA.Sprint4.Task7.V7.Test
             string input = "31415926";
             int oddCount = ds.Calculate(4, 2, input);
 
-            Assert.AreEqual(5, oddCount); 
+            Assert.AreEqual(5, oddCount);
         }
     }
 }
